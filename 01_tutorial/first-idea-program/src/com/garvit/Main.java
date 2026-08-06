@@ -7,12 +7,12 @@ public class Main {
 
 
 
-        /*
+
         System.out.println("Hey how are you ? ");
         Scanner  input = new Scanner(System.in);
         System.out.println(input .nextLine());
 
         System.out.print("Hello World ");
-        System.out.println("My name is Garvit "); */
+        System.out.println("My name is Garvit ");
     }
 }
