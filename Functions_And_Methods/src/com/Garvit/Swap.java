@@ -21,16 +21,19 @@ public class Swap {
         System.out.println(name);
     }
 
-     static void changeName(String name) {
-        name = "Garvit Tomar";
+     static void changeName(String naam) {
+        naam = "Garvit Tomar";//creating a new object will not change
+
 
 
     }
 
-    static void swap(int a , int b){
-        int temp = a;
-        a=b;
-        b=temp;
+    static void swap(int num1 , int num2) {
+        int temp = num1;
+        num1 = num2;
+        num2 = temp;
+
+        //this change only be valid in  this function scope only.
 
     }
 
