@@ -1,7 +1,5 @@
 package com.Garvit;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         // Q.  store a roll number
@@ -28,12 +26,16 @@ public class Main {
         int[] rno2 = {23,24,25,26,27};
        */
 
-          int[] rno1; // decraration of array . here rno1 is getting defined in the stack
-        rno1 = new int[5]; // initialization: actually here object is being created
+          int[] ros; // decraration of array . here rno1 is getting defined in the stack
+        ros = new int[5]; // initialization: actually here object is being created
                              // in the memory(heap)
-        Scanner in = new Scanner(System.in);
 
-        System.out.println(rno1);
+        System.out.println(ros[0]);
+
+        String[] arr=new String[4];
+        System.out.println(arr[0]);
+        
+
 
     }
 }
