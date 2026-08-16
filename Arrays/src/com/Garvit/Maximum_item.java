@@ -6,12 +6,13 @@ public class Maximum_item {
         // Q. MAximum value of an array:
 
         int[] arr = {1,3,2,9,18};
+        System.out.print("Here is the maximum value :- ");
         System.out.println(max(arr)); //overall max value
-        System.out.println(maxRange(arr,3,4));
+        System.out.print(maxRange(arr,3,4));
 
     }
 
-// Find the max value in range like in between index 1 to 3 or any other
+// Q. Find the max value in range like in between index 1 to 3 or any other
     //also work on edge cases here , like array being null
 
     static int maxRange(int[] arr , int start , int end) {
